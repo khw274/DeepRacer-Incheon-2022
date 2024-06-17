@@ -22,6 +22,7 @@ Learning rate	                                                        0.0003
 Number of experience episodes between each policy-updating iteration    20
 Number of epochs	                                                10
 ```
+기본으로 설정된 하이퍼파라미터 적용
 
 #### 조향각과 조향각별 속도
 ```
@@ -31,5 +32,5 @@ Action space
 
 Steering angle (°)    Speed (m/s)
 [ 30 : -10 ]	      [ 1.50 : 3 ]
-
 ```
+![제목 없음](https://github.com/khw274/DeepRacer-Incheon-2022/assets/125671828/c91a6495-aee7-45d5-bcce-12f6f8c862e5)
