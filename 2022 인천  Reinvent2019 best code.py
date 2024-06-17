@@ -53,24 +53,3 @@ def reward_function(params):
   
     
     return float(reward)
-
-
-
-
-
-Environment simulation
-The 2019 DeepRacer Championship Cup
-
-Gradient descent batch size	64
-Entropy	0.01
-Discount factor	0.999
-Loss type	Huber
-Learning rate	0.0003
-Number of experience episodes between each policy-updating iteration	20
-Number of epochs	10
-
-Action space type
-Continuous
-Action space
-Speed: [ 1.5 : 3 ] m/s
-Steering angle: [ -10 : 30 ] °
