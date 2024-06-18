@@ -21,6 +21,8 @@
 5가지 중 핵심은 차량이 트랙의 중심에 있으면서 트랙을 빠져나가지 않는 것이다.
 
 #### 하이퍼 파라미터 
+기본으로 설정된 하이퍼파라미터 적용
+
 ```
 (Hyperparameter)                                                        (Value)
 Gradient descent batch size	                                        64
@@ -31,9 +33,10 @@ Learning rate	                                                        0.0003
 Number of experience episodes between each policy-updating iteration    20
 Number of epochs	                                                10
 ```
-기본으로 설정된 하이퍼파라미터 적용
 
 #### 조향각과 조향각별 속도
+대회 맵의 특성상 왼쪽으로 가는 경향이 많음, 또한 중앙선 추종시 커브길에서의 도로 이탈을 방지하고자 조향각을 좌측 중심으로 설정  
+
 ```
 Action space type: Continuous
 
@@ -42,5 +45,4 @@ Action space
 Steering angle (°)    Speed (m/s)
 [ 30 : -10 ]	      [ 1.50 : 3 ]
 ```
-대회 맵의 특성상 왼쪽으로 가는 경향이 많음, 또한 중앙선 추종시 커브길에서의 도로 이탈을 방지하고자 조향각을 좌측 중심으로 설정  
 ![제목 없음](https://github.com/khw274/DeepRacer-Incheon-2022/assets/125671828/c91a6495-aee7-45d5-bcce-12f6f8c862e5)
